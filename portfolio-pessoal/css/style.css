@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body {
+
+  font-family: "Source Code Pro", monospace;
+  background: url("../img/wpp.webp") no-repeat top center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: grid;
+
+  height: 100vh;
+  color: #aeaeae;
+}
+
+.title {
+  margin-top: 2rem;
+  font-size: 36px;
+  font-weight: bold;
+  color: rgb(58, 0, 70);
+  border: 2px 2px 16px #606060;
+}
+
+.box {
+  background: rgb(255, 228, 233);
+  padding: 0.5rem;
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 50px;
+  text-align: center;
+  border-radius: 20px;
+
+  margin-top: 1rem;
+  margin-left: 1rem;
+  width: 50%;
+  
+  display: block;
+
+  position: relative;
+  
+
+}
+
+
+.div-left{
+  background: rgb(255, 228, 233);
+  padding: 0.5rem;
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 50px;
+  text-align: center;
+  border-radius: 20px;
+
+  margin-top: 1rem;
+  margin-left: 1rem;
+  display: block;
+  width: 46%;
+}
+
+.div-right{
+  background: rgb(255, 228, 233);
+  padding: 0.5rem;
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 50px;
+  text-align: center;
+  border-radius: 20px;
+
+  margin-top: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: block;
+  width: 46%;
+
+  
+}
+.box-profile{
+  background: rgb(255, 239, 203);
+  padding: 0.5rem;
+  border: 3px 3px 16px #fa0404;
+  border-radius: 20px;
+  box-shadow: 4px 4px 16px rgb(255, 255, 255);
+  text-align: center;
+
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+}
+
+.profile-pic {
+  border-radius: 50%;
+  margin: 0 auto 3rem auto;
+  margin-right: 50px;
+  float: right;
+  height: 300px;
+  width: 300px;
+}
+
+
+.copyright {
+  font-size: 24px;
+  color: white;
+  text-shadow: 2px 2px 16px black;
+  margin: 30vh 0;
+  text-align: center;
+  margin-top: 30px;
+}
+
+
+.border{
+  border-top: 20px;
+  border-width: 6px;
+  border-style: solid;
+  border-color: rgb(226, 169, 228)
+}
+
+.border-div{
+  border-top: 20px;
+  border-width: 6px;
+  border-style: solid;
+  border-color: rgb(247, 245, 247)
+}
+
+p{
+
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(3, 0, 3);
+  border: 2px 2px 16px #606060;
+  
+}
+
+.sobre-mim{
+  font-size: 36px;
+  font-weight: bold;
+  color: rgb(58, 0, 70);
+  border: 2px 2px 16px #606060;
+}
+
+button{
+  text-decoration-color: white;
+  background-color: rgb(255, 0, 128);
+  border-radius: 20px;
+  size: 20 px;
+  
+}
+.text-button{
+  margin-top: 2rem;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+@media (min-width: 600px) {
+  div.teste{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  }
+}
